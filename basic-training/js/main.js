@@ -4,7 +4,16 @@
 // 年齢が20
 // 趣味が'fishing'
 // sayという関数を使うとコンソールに'hello'と表示する
+let boy = {
+  name: 'john',
+  age: 20,
+  hobby: 'fishing',
+  say: function (){
+    console.log('hello')
+  }
+}
 
+console.log(boy['hobby'])
 
 // ★★繰り返し★★
 // 1〜10までの数値を順番に足し合わせて、最後に全て足した結果をターミナルに出力するプログラムを書いてください。
