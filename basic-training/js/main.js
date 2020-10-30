@@ -4,19 +4,15 @@
 // 年齢が20
 // 趣味が'fishing'
 // sayという関数を使うとコンソールに'hello'と表示する
-let boy = {
-  name: 'john',
-  age: 20,
-  hobby: 'fishing',
-  say: function (){
-    console.log('hello')
-  }
-}
 
-console.log(boy['hobby'])
 
 // ★★繰り返し★★
 // 1〜10までの数値を順番に足し合わせて、最後に全て足した結果をターミナルに出力するプログラムを書いてください。
+// let num = 0
+// let sum_up = function() {
+
+// }
+// sum_up(num);
 
 
 // 以下の配列から、数を探して何番目に含まれているか結果を返すメソッドをsearchとeach_with_indexを用いて作成してください。
@@ -36,7 +32,9 @@ console.log(boy['hobby'])
 // 呼び出し方：
 // police_trouble(a, b)
 // 出力例：
-// police_trouble(true, false) → Falsepolice_trouble(false, false) → Truepolice_trouble(true, true) → True
+// police_trouble(true, false) → False
+// police_trouble(false, false) → True
+// police_trouble(true, true) → True
 
 
 // ★★関数★★
