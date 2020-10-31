@@ -37,6 +37,19 @@
 // police_trouble(false, false) → True
 // police_trouble(true, true) → True
 
+let A = 'true';
+let B = 'null';
+function police_trouble(a, b) {
+  if (a === b) {
+    console.log('TRUE');
+  } else if(a !== b) {
+    console.log('FALSE');
+  } else {
+    console.log('入力値不正');
+  }
+}
+police_trouble(A, B);
+
 
 // ★★関数★★
 // 任意の文字に対してn番目の文字を消し、その消した文字を出力するメソッドを作りましょう。
