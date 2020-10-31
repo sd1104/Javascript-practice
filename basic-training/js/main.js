@@ -39,7 +39,7 @@
 
 let A = 'true';
 let B = 'null';
-function police_trouble(a, b) {
+let police_trouble = function(a,b)  {
   if (a === b) {
     console.log('TRUE');
   } else if(a !== b) {
