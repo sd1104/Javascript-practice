@@ -5,6 +5,19 @@
 // 趣味が'fishing'
 // sayという関数を使うとコンソールに'hello'と表示する
 
+let boy = {
+  name: 'john',
+  age: 20,
+  hobby: 'fishing',
+  say: function() {
+    console.log('hello')
+  }
+}
+
+console.log(boy.name);
+console.log(boy.age);
+console.log(boy.hobby);
+boy.say();
 
 
 // ★★繰り返し★★
