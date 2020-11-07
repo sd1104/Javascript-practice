@@ -1,15 +1,18 @@
-let heLLo = 'This is variable_num of heLLo.'
+window.name = 'John';
 
-function hello() {
-  console.log('This is called by hello_function');
+let person = {
+  name: 'Bob',
+  hello: function(){
+    console.log(this.name);
+  }
 }
 
-function callback(callback_ob) {
-  console.log('Comment under this low is called by callback_function.')
-  callback_ob();
+person.hello();
+
+const helloBob = person.hello.bind(person);
+
+function test(test) {
+  test();
 }
 
-// callback(hello);
-
-
-setTimeout(hello ,10000);
+test(helloBob);
