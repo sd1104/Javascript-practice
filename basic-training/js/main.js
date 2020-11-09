@@ -44,3 +44,12 @@ let boys = {
 //   }
 // }
 // sum_up();
+// $i = 0;
+// function sum_up() {
+//   while($i<10){
+//     num += 1;
+//     console.log((num)+'+'+(num+1)+'='+(num+num+1));
+//     $i++;
+//   }
+// }
+// sum_up();
