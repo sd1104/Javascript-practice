@@ -74,3 +74,8 @@ let boys = {
 
 // let judge = (fruit == 'apple')? 'OK':'No';
 // console.log(judge);
+
+// let hello = function() {
+//   console.log('hello');
+// };
+// setTimeout(hello, 5000);
