@@ -65,12 +65,12 @@ let boys = {
 //     console.log(key1+"'s"+' '+key2+'='+boys[key1][key2]);
 //   }
 // }
-let fruit = 'pineapple';
-if(fruits[0] == fruit) {
-  console.log("That's right.")
-} else {
-  console.log("It's not a pineapple.")
-};
+// let fruit = 'pineapple';
+// if(fruits[0] == fruit) {
+//   console.log("That's right.")
+// } else {
+//   console.log("It's not a pineapple.")
+// };
 
-let judge = (fruit == 'apple')? 'OK':'No';
-console.log(judge);
+// let judge = (fruit == 'apple')? 'OK':'No';
+// console.log(judge);
