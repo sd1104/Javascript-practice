@@ -59,3 +59,9 @@ let boys = {
 // fruits.forEach(function(item, index, array){
 //   console.log(index, ':', item);
 // });
+
+// for(let key1 in boys) {
+//   for(let key2 in boys[key1]) {
+//     console.log(key1+"'s"+' '+key2+'='+boys[key1][key2]);
+//   }
+// }
