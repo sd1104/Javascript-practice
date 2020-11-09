@@ -18,7 +18,10 @@ let boy = {
   john: {
     age: 20,
     hobby: 'fishing',
-    favorite: 'apple'
+    favorite: 'apple',
+    say: function() {
+      console.log('hello');
+    }
   },
   Mike: {
     age: 30,
@@ -28,3 +31,4 @@ let boy = {
 }
 
 console.log(boy);
+boy.john.say();
