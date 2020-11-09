@@ -36,4 +36,6 @@ Thats right.と答える。それ以外ならIt's not a pineapple.と表示す�
 fruitはpineappleならOK,ちがうならNoと表示する。
 
 問題E コールバック関数
-setTime関数にhelloと表示する関数を引数として代入して、５秒後にその関数を発動させる。
+setTimeout関数にhelloと表示する関数を引数として代入して、５秒後にその関数を発動させる。
+
+問題F アロー関数
