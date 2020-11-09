@@ -108,18 +108,30 @@ function Human(name, age) {
   }
 }
 
-Human.prototype.hello = function() {
-  console.log('hello' + this.name);
+// Human.prototype.hello = function() {
+//   console.log('hello' + this.name);
+// }
+
+// const mike = new Human('Mike', 22)
+// mike.hello();
+// mike.bye();
+
+class Bird {
+  // constructor(name, age) {
+  //   super(name, age);
+  //   this.name = name;
+  //   this.age = age;
+  // }
+  fly() {
+    console.log('I will fly!!');
+  }
 }
 
-const mike = new Human('Mike', 22)
-mike.hello();
-mike.bye();
-
-class Person {
+class Person extends Bird {
   constructor(name, age) {
-    this.name = name;
-    this.age = age;
+    super(name, age);
+    // this.name = name;
+    // this.age = age;
   }
   hello() {
     console.log('Hello' + ' ' + this.name + '.');
@@ -131,4 +143,4 @@ class Person {
 
 const bob = new Person('Vague', 25);
 bob.hello();
-bob.bye();
+bob.fly();
