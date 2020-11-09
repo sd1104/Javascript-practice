@@ -115,3 +115,20 @@ Human.prototype.hello = function() {
 const mike = new Human('Mike', 22)
 mike.hello();
 mike.bye();
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  hello() {
+    console.log('Hello' + ' ' + this.name + '.');
+  }
+  bye() {
+    console.log('Bye' + ' ' + this.name + '.');
+  }
+}
+
+const bob = new Person('Vague', 25);
+bob.hello();
+bob.bye();
