@@ -34,3 +34,13 @@ let boys = {
 }
 // console.log(boy);
 // boy.john.say();
+
+
+// let num = 0;
+// function sum_up() {
+//   for($i=0; $i <10; $i++) {
+//     num++;
+//     console.log((num)+'+'+(num+1)+'='+(num+num+1));
+//   }
+// }
+// sum_up();
