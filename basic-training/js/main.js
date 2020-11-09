@@ -79,3 +79,23 @@ let boys = {
 //   console.log('hello');
 // };
 // setTimeout(hello, 5000);
+
+
+
+// function a(name) {
+//   return 'hello' + " " + name;
+// };
+// const b = function(name) {
+//   return 'hello' + " " + name;
+// }
+// const c = name => 'hello' + " " + name;
+// const d = (name1, name2) => 'hello' + " " + name1 + ',' + name2;
+// const e = () => 'hello';
+// const f = _ => 'hello';
+
+// console.log(a('Tom'));
+// console.log(b('Bob'));
+// console.log(c('Nick'));
+// console.log(d('Mike', 'John'));
+// console.log(e());
+// console.log(f());
