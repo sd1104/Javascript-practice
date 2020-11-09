@@ -56,3 +56,6 @@ let boys = {
 // for($i=0; $i< fruits.length; $i++) {
 //   console.log(fruits[$i]);
 // }
+// fruits.forEach(function(item, index, array){
+//   console.log(index, ':', item);
+// });
