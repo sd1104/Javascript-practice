@@ -1,37 +1,37 @@
-let fruits = [
-  'apple',
-  'orange',
-  'grape'
-];
-fruits[1] = 'melon';
-fruits[3] = 'peach';
-fruits.unshift('pineapple');
-fruits.push('watermelon');
-// fruits.pop();
-// fruits.shift();
-// fruits.splice(0,3)
-indexNum = fruits.indexOf('apple');
-// console.log(fruits, indexNum);
+// let fruits = [
+//   'apple',
+//   'orange',
+//   'grape'
+// ];
+// fruits[1] = 'melon';
+// fruits[3] = 'peach';
+// fruits.unshift('pineapple');
+// fruits.push('watermelon');
+// // fruits.pop();
+// // fruits.shift();
+// // fruits.splice(0,3)
+// indexNum = fruits.indexOf('apple');
+// // console.log(fruits, indexNum);
 
 
-let boys = {
-  john: {
-    age: 20,
-    hobby: 'fishing',
-    favorite: 'apple',
-    say: function() {
-      console.log('hello');
-    }
-  },
-  Mike: {
-    age: 30,
-    hobby: 'walking',
-    favorite: 'orange',
-    say: function() {
-      console.log('hello');
-    }
-  }
-}
+// let boys = {
+//   john: {
+//     age: 20,
+//     hobby: 'fishing',
+//     favorite: 'apple',
+//     say: function() {
+//       console.log('hello');
+//     }
+//   },
+//   Mike: {
+//     age: 30,
+//     hobby: 'walking',
+//     favorite: 'orange',
+//     say: function() {
+//       console.log('hello');
+//     }
+//   }
+// }
 // console.log(boy);
 // boy.john.say();
 
@@ -100,17 +100,18 @@ let boys = {
 // console.log(e());
 // console.log(f());
 
-class Person {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-
-  hello() {
-    console.log('hello' + ' ' + this.name);
+function Human(name, age) {
+  this.name = name;
+  this.age = age;
+  this.bye = function() {
+    console.log('Bye' + this.name);
   }
 }
 
-const bob = new Person('Bob', 20);
-console.log(bob.name);
-bob.hello();
+Human.prototype.hello = function() {
+  console.log('hello' + this.name);
+}
+
+const mike = new Human('Mike', 22)
+mike.hello();
+mike.bye();
