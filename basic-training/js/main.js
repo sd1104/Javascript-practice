@@ -53,3 +53,6 @@ let boys = {
 //   }
 // }
 // sum_up();
+// for($i=0; $i< fruits.length; $i++) {
+//   console.log(fruits[$i]);
+// }
