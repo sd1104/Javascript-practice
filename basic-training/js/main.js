@@ -11,24 +11,4 @@ fruits.push('watermelon');
 // fruits.shift();
 // fruits.splice(0,3)
 indexNum = fruits.indexOf('apple');
-console.log(fruits, indexNum);
-
-
-let boy = {
-  john: {
-    age: 20,
-    hobby: 'fishing',
-    favorite: 'apple',
-    say: function() {
-      console.log('hello');
-    }
-  },
-  Mike: {
-    age: 30,
-    hobby: 'walking',
-    favorite: 'orange'
-  }
-}
-
-console.log(boy);
-boy.john.say();
+// console.log(fruits, indexNum);
