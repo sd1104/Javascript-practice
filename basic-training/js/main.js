@@ -1,18 +1,30 @@
-window.name = 'John';
+let fruits = [
+  'apple',
+  'orange',
+  'grape'
+];
+fruits[1] = 'melon';
+fruits[3] = 'peach';
+fruits.unshift('pineapple');
+fruits.push('watermelon');
+// fruits.pop();
+// fruits.shift();
+// fruits.splice(0,3)
+indexNum = fruits.indexOf('apple');
+console.log(fruits, indexNum);
 
-let person = {
-  name: 'Bob',
-  hello: function(){
-    console.log(this.name);
+
+let boy = {
+  john: {
+    age: 20,
+    hobby: 'fishing',
+    favorite: 'apple'
+  },
+  Mike: {
+    age: 30,
+    hobby: 'walking',
+    favorite: 'orange'
   }
 }
 
-person.hello();
-
-const helloBob = person.hello.bind(person);
-
-function test(test) {
-  test();
-}
-
-test(helloBob);
+console.log(boy);
