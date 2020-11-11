@@ -1,37 +1,71 @@
-// let fruits = ['apple', 'orange', 'grape'];
-// fruits[1] = 'melon';
-// fruits[3] = 'peach';
-// fruits.unshift('pineapple');
-// fruits.push('watermelon');
+let fruits = ['apple', 'orange', 'grape'];
+fruits[1] = 'melon';
+fruits[3] = 'peach';
+fruits.unshift('pineapple');
+fruits.push('watermelon');
 // fruits.shift();
 // fruits.pop();
 // fruits.splice(0, 5)
 
 // console.log(fruits);
 
-// boy = {
-//   name: 'John',
-//   age: 20,
-//   hobby: 'fishing',
-//   say: function() {
-//     console.log('hello');
-//   }
-// };
+boy = {
+  name: 'John',
+  age: 20,
+  hobby: 'fishing',
+  say: function() {
+    console.log('hello');
+  }
+};
 
 // console.log(boy.name);
 // boy.say();
-num = 0;
+// num = 0;
 // for($i = 0; $i<10; $i++) {
 //   num = ($i+1) + ($i+2)
 // }
-$i = 0;
-while($i < 10) {
-  num = ($i+1) + ($i+2);
-  $i++;
+// $i = 0;
+// while($i < 10) {
+//   num = ($i+1) + ($i+2);
+//   $i++;
+// }
+// console.log(num);
+
+// fruits.forEach(function(fruit, index, array) {
+//   console.log(fruit);
+//   console.log(index);
+//   console.log(array);
+// })
+
+// for(let key in boy) {
+//   console.log(boy[key]);
+// }
+
+
+let boys = {
+  john: {
+    age: 20,
+    hobby: 'fishing',
+    favorite: 'apple',
+    say: function() {
+      console.log('hello');
+    }
+  },
+  Mike: {
+    age: 30,
+    hobby: 'walking',
+    favorite: 'orange',
+    say: function() {
+      console.log('hello');
+    }
+  }
 }
-console.log(num);
 
-
+for(let key1 in boys) {
+  for(let key2 in boys[key1]) {
+    console.log(key1+"'s"+' '+key2+'='+boys[key1][key2]);
+  }
+}
 
 
 
