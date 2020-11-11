@@ -42,32 +42,36 @@ boy = {
 // }
 
 
-let boys = {
-  john: {
-    age: 20,
-    hobby: 'fishing',
-    favorite: 'apple',
-    say: function() {
-      console.log('hello');
-    }
-  },
-  Mike: {
-    age: 30,
-    hobby: 'walking',
-    favorite: 'orange',
-    say: function() {
-      console.log('hello');
-    }
-  }
+// let boys = {
+//   john: {
+//     age: 20,
+//     hobby: 'fishing',
+//     favorite: 'apple',
+//     say: function() {
+//       console.log('hello');
+//     }
+//   },
+//   Mike: {
+//     age: 30,
+//     hobby: 'walking',
+//     favorite: 'orange',
+//     say: function() {
+//       console.log('hello');
+//     }
+//   }
+// }
+
+// for(let key1 in boys) {
+//   for(let key2 in boys[key1]) {
+//     console.log(key1+"'s"+' '+key2+'='+boys[key1][key2]);
+//   }
+// }
+
+if(fruits[0] === 'pineapple') {
+  console.log("That's right.");
+} else {
+  console.log("It's not a pineapple.")
 }
-
-for(let key1 in boys) {
-  for(let key2 in boys[key1]) {
-    console.log(key1+"'s"+' '+key2+'='+boys[key1][key2]);
-  }
-}
-
-
 
 
 
