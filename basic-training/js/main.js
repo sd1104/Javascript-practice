@@ -1,3 +1,57 @@
+let fruits = ['apple', 'orange', 'grape'];
+fruits[1] = 'melon';
+fruits[3] = 'peach';
+fruits.unshift('pineapple');
+fruits.push('watermelon');
+fruits.shift();
+fruits.pop();
+fruits.splice(0, 5)
+
+console.log(fruits);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let fruits = [
 //   'apple',
 //   'orange',
@@ -100,13 +154,13 @@
 // console.log(e());
 // console.log(f());
 
-function Human(name, age) {
-  this.name = name;
-  this.age = age;
-  this.bye = function() {
-    console.log('Bye' + this.name);
-  }
-}
+// function Human(name, age) {
+//   this.name = name;
+//   this.age = age;
+//   this.bye = function() {
+//     console.log('Bye' + this.name);
+//   }
+// }
 
 // Human.prototype.hello = function() {
 //   console.log('hello' + this.name);
@@ -116,31 +170,31 @@ function Human(name, age) {
 // mike.hello();
 // mike.bye();
 
-class Bird {
+// class Bird {
   // constructor(name, age) {
   //   super(name, age);
   //   this.name = name;
   //   this.age = age;
   // }
-  fly() {
-    console.log('I will fly!!');
-  }
-}
+//   fly() {
+//     console.log('I will fly!!');
+//   }
+// }
 
-class Person extends Bird {
-  constructor(name, age) {
-    super(name, age);
+// class Person extends Bird {
+//   constructor(name, age) {
+//     super(name, age);
     // this.name = name;
     // this.age = age;
-  }
-  hello() {
-    console.log('Hello' + ' ' + this.name + '.');
-  }
-  bye() {
-    console.log('Bye' + ' ' + this.name + '.');
-  }
-}
+//   }
+//   hello() {
+//     console.log('Hello' + ' ' + this.name + '.');
+//   }
+//   bye() {
+//     console.log('Bye' + ' ' + this.name + '.');
+//   }
+// }
 
-const bob = new Person('Vague', 25);
-bob.hello();
-bob.fly();
+// const bob = new Person('Vague', 25);
+// bob.hello();
+// bob.fly();
