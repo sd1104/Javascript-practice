@@ -1,15 +1,25 @@
-let fruits = ['apple', 'orange', 'grape'];
-fruits[1] = 'melon';
-fruits[3] = 'peach';
-fruits.unshift('pineapple');
-fruits.push('watermelon');
-fruits.shift();
-fruits.pop();
-fruits.splice(0, 5)
+// let fruits = ['apple', 'orange', 'grape'];
+// fruits[1] = 'melon';
+// fruits[3] = 'peach';
+// fruits.unshift('pineapple');
+// fruits.push('watermelon');
+// fruits.shift();
+// fruits.pop();
+// fruits.splice(0, 5)
 
-console.log(fruits);
+// console.log(fruits);
 
+// boy = {
+//   name: 'John',
+//   age: 20,
+//   hobby: 'fishing',
+//   say: function() {
+//     console.log('hello');
+//   }
+// };
 
+// console.log(boy.name);
+// boy.say();
 
 
 
