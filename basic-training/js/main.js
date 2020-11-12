@@ -1,22 +1,22 @@
-let fruits = ['apple', 'orange', 'grape'];
-fruits[1] = 'melon';
-fruits[3] = 'peach';
-fruits.unshift('pineapple');
-fruits.push('watermelon');
+// let fruits = ['apple', 'orange', 'grape'];
+// fruits[1] = 'melon';
+// fruits[3] = 'peach';
+// fruits.unshift('pineapple');
+// fruits.push('watermelon');
 // fruits.shift();
 // fruits.pop();
 // fruits.splice(0, 5)
 
 // console.log(fruits);
 
-boy = {
-  name: 'John',
-  age: 20,
-  hobby: 'fishing',
-  say: function() {
-    console.log('hello');
-  }
-};
+// boy = {
+//   name: 'John',
+//   age: 20,
+//   hobby: 'fishing',
+//   say: function() {
+//     console.log('hello');
+//   }
+// };
 
 // console.log(boy.name);
 // boy.say();
@@ -67,17 +67,37 @@ boy = {
 //   }
 // }
 
-if(fruits[0] === 'pineapple') {
-  console.log("That's right.");
-} else {
-  console.log("It's not a pineapple.")
-}
+// if(fruits[0] === 'pineapple') {
+//   console.log("That's right.");
+// } else {
+//   console.log("It's not a pineapple.")
+// }
+
+// let say_hello = function() {
+//   console.log('hello');
+// };
+
+// setTimeout(say_hello, 5000);
 
 
+// let fn = function(ref) {
+//   ref();
+// };
+
+// fn(say_hello);
 
 
+let say_hello = function() {
+  console.log('hello');
+};
 
+// let fn = ref => ref();
 
+// let fn2 = () => 'hello';
+
+// console.log(fn2());
+
+// fn(say_hello);
 
 
 
