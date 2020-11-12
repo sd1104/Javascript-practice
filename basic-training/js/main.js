@@ -91,13 +91,13 @@ let say_hello = function() {
   console.log('hello');
 };
 
-// let fn = ref => ref();
+let fn = ref => ref();
 
-// let fn2 = () => 'hello';
+let fn2 = () => 'hello';
 
-// console.log(fn2());
+console.log(fn2());
 
-// fn(say_hello);
+fn(say_hello);
 
 
 
