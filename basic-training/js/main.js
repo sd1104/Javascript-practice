@@ -40,3 +40,7 @@ let count = 0;
 //   num = (count+1) + (count+2);
 //   count++;
 // }
+
+// fruit.forEach(function(value, index, array) {
+//   console.log(value, index, array);
+// })
