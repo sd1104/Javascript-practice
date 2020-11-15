@@ -48,3 +48,9 @@ let count = 0;
 // for($i=0; $i<fruit.length; $i++) {
 //   console.log(fruit[$i]);
 // }
+
+// for(key1 in boys) {
+//   for(key2 in boys[key1]) {
+//     console.log(key1+"'s age is ", boys[key1]['age']);
+//   }
+// }
