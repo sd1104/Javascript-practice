@@ -44,3 +44,7 @@ let count = 0;
 // fruit.forEach(function(value, index, array) {
 //   console.log(value, index, array);
 // })
+
+// for($i=0; $i<fruit.length; $i++) {
+//   console.log(fruit[$i]);
+// }
