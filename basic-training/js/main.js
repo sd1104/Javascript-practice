@@ -64,3 +64,13 @@ if(fruit[0] === 'pineapple') {
 
 let judge = fruit[0] === 'pineapple'? 'Yes, it is.' : "No, it isn't.";
 console.log(judge);
+
+
+
+function fn(ref) {
+  ref();
+}
+
+fn(boys.john.say);
+
+setTimeout(boys.john.say, 5000);
