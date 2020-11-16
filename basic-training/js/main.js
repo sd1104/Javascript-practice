@@ -12,7 +12,7 @@ let boys = {
     age: 20,
     hobby: 'fishing',
     say: function() {
-      return 'hello';
+      console.log('hello');
     }
   },
   mike: {
@@ -31,7 +31,8 @@ let boys = {
   }
 }
 
-let num = 0;
+// let num = 0;
+
 // for($i=0; $i<10; $i++) {
 //   num = ($i+1) + ($i+2);
 // }
@@ -54,3 +55,9 @@ let count = 0;
 //     console.log(key1+"'s age is ", boys[key1]['age']);
 //   }
 // }
+
+if(fruit[0] === 'pineapple') {
+  console.log(true);
+} else {
+  console.log(false);
+}
