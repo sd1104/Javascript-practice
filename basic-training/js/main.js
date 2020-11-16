@@ -74,3 +74,10 @@ function fn(ref) {
 fn(boys.john.say);
 
 setTimeout(boys.john.say, 5000);
+
+
+let num = 27;
+
+let fn2 = num => console.log(num+num);
+
+fn2(num);
