@@ -61,3 +61,6 @@ if(fruit[0] === 'pineapple') {
 } else {
   console.log(false);
 }
+
+let judge = fruit[0] === 'pineapple'? 'Yes, it is.' : "No, it isn't.";
+console.log(judge);
