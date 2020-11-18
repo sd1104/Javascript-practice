@@ -3,8 +3,8 @@ let fruits = ['apple', 'orange', 'grape'];
 fruits[1] = 'melon';
 fruits.unshift('pineapple');
 fruits.push('peach');
-fruits.shift();
-fruits.pop();
+// fruits.shift();
+// fruits.pop();
 
 
 let boys = {
@@ -34,3 +34,11 @@ let boys = {
 //   count++;
 // }
 // console.log(num);
+
+// for(i=0; i<fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+
+// for(let key1 in boys) {
+//   console.log(key1);
+// }
