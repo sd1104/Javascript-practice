@@ -23,3 +23,14 @@ let boys = {
     }
   }
 }
+
+// let num = 0;
+// for(i=0; i<10; i++) {
+//   num = (i+1) + (i+2);
+// }
+// let count = 0;
+// while(count<10) {
+//   num = (count+1) + (count+2);
+//   count++;
+// }
+// console.log(num);
