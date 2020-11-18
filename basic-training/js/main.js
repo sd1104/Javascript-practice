@@ -39,9 +39,13 @@ let boys = {
 //   console.log(fruits[i]);
 // }
 
-for(let key1 in boys) {
-   let obj = boys[key1];
-  for(let key2 in obj) {
-    console.log(key2, obj[key2]);
-  }
-}
+// for(let key1 in boys) {
+//    let obj = boys[key1];
+//   for(let key2 in obj) {
+//     console.log(key2, obj[key2]);
+//   }
+// }
+
+fruits.forEach( function(value, index, array) {
+  console.log(index, value);
+})
