@@ -46,6 +46,6 @@ let boys = {
 //   }
 // }
 
-fruits.forEach( function(value, index, array) {
-  console.log(index, value);
-})
+// fruits.forEach( function(value, index, array) {
+//   console.log(index, value);
+// })
