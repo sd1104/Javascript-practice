@@ -57,3 +57,6 @@ if(fruits[0] === 'pineapple') {
 } else {
   console.log('others');
 }
+
+let judge = fruits[0] === 'apple'? 'apple': 'others';
+console.log(judge);
