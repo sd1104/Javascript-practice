@@ -60,3 +60,15 @@ if(fruits[0] === 'pineapple') {
 
 let judge = fruits[0] === 'apple'? 'apple': 'others';
 console.log(judge);
+
+let fn1 = function(){
+  console.log('fn1');
+}
+
+let fn2 = function(ref) {
+  ref();
+}
+
+fn2(fn1);
+
+setTimeout(fn1, 3000);
