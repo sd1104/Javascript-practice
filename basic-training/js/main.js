@@ -72,3 +72,11 @@ let fn2 = function(ref) {
 fn2(fn1);
 
 setTimeout(fn1, 3000);
+
+let fn3 = ref => console.log(ref);
+
+fn3('fn3');
+
+let fn4 = () => console.log('fn4');
+
+fn4();
