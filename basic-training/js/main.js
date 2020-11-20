@@ -49,3 +49,11 @@ let boys = {
 // fruits.forEach( function(value, index, array) {
 //   console.log(index, value);
 // })
+
+if(fruits[0] === 'pineapple') {
+  console.log('pineapple');
+} else if(fruits[0] === 'apple') {
+  console.log('apple');
+} else {
+  console.log('others');
+}
