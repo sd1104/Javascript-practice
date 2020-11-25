@@ -40,3 +40,7 @@ let boys = {
 // fruits.forEach(function(value, index) {
 //   console.log(index, value)
 // })
+
+for(i in fruits) {
+  console.log(fruits[i]);
+}
