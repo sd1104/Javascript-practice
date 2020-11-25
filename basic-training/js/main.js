@@ -19,13 +19,22 @@ let boys = {
   }
 };
 
-num = 0
+// num = 0
 // for(i=0; i<10; i++) {
 //   num = (i+1) + (i+2);
 // }
-i = 0
-while(i<10) {
-    num = (i+1) + (i+2);
-    i++;
+// i = 0
+// while(i<10) {
+//     num = (i+1) + (i+2);
+//     i++;
+// }
+
+let plus = function() {
+  for(i=0; i<10; i++) {
+    let numA = Math.floor( Math.random()*10) +1
+    let numB = Math.floor( Math.random()*10) +1
+    console.log(`${numA} + ${numB}`)
+  }
 }
-console.log(num)
+
+plus()
