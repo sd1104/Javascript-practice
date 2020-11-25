@@ -45,8 +45,28 @@ let boys = {
 //   console.log(fruits[i]);
 // }
 
-for(i in boys) {
-  for(f in boys[i]) {
-    console.log(i, f, boys[i][f])
-  }
+// for(i in boys) {
+//   for(f in boys[i]) {
+//     console.log(i, f, boys[i][f])
+//   }
+// }
+
+// let numA = Math.floor( Math.random()*10) +1;
+// let lucky = 10;
+// if(numA === lucky) {
+//   console.log('lucky')
+// } else if(numA === 5) {
+//   console.log(5)
+// } else {
+//   console.log('unlucky')
+// }
+
+// judge = numA === lucky? 'lucky' : 'unlucky';
+// console.log(judge)
+
+
+let fn = function() {
+  console.log('hello')
 }
+
+setTimeout(fn, 3000)
