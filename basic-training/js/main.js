@@ -41,6 +41,12 @@ let boys = {
 //   console.log(index, value)
 // })
 
-for(i in fruits) {
-  console.log(fruits[i]);
+// for(i in fruits) {
+//   console.log(fruits[i]);
+// }
+
+for(i in boys) {
+  for(f in boys[i]) {
+    console.log(i, f, boys[i][f])
+  }
 }
