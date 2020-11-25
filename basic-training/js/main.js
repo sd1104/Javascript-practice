@@ -70,3 +70,8 @@ let fn = function() {
 }
 
 setTimeout(fn, 3000)
+
+
+let fn1 = () => console.log('hello');
+
+fn1();
