@@ -23,5 +23,9 @@ num = 0
 // for(i=0; i<10; i++) {
 //   num = (i+1) + (i+2);
 // }
-
+i = 0
+while(i<10) {
+    num = (i+1) + (i+2);
+    i++;
+}
 console.log(num)
