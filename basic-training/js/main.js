@@ -29,12 +29,14 @@ let boys = {
 //     i++;
 // }
 
-let plus = function() {
-  for(i=0; i<10; i++) {
-    let numA = Math.floor( Math.random()*10) +1
-    let numB = Math.floor( Math.random()*10) +1
-    console.log(`${numA} + ${numB}`)
-  }
-}
+// let plus = function() {
+//   for(i=0; i<10; i++) {
+//     let numA = Math.floor( Math.random()*10) +1
+//     let numB = Math.floor( Math.random()*10) +1
+//     console.log(`${numA} + ${numB}`)
+//   }
+// }
 
-plus()
+// fruits.forEach(function(value, index) {
+//   console.log(index, value)
+// })
